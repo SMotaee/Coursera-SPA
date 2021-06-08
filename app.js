@@ -1,12 +1,12 @@
-var student{
-  name:"",
-  type:"student"
+var student={
+  name: "",
+  type: "student"
 };
-document.addEventListener('DOMContentLoaded','contectLoaded');
+document.addEventListener('DOMContentLoaded',contentLoaded);
 function contentLoaded(event){
-  document.getElementById('name').addEventListener("keyup",keyup);
+  document.getElementById('name').addEventListener("keyup",keyUp);
 }
-function keyup(event){
+function keyUp(event){
   calculateNumericOutput();
 }
 function calculateNumericOutput(){
